@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Inter';
-  src: url('../assets/fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  src: url('../assets/fonts/inter.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Tourney';
-  src: url('../assets/fonts/Tourney-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-family: 'Lora';
+  src: url('../assets/fonts/lora.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,5 +17,5 @@ body {
 }
 
 h1 {
-    font-family: "Tourney", sans-serif;
+    font-family: "Lora", sans-serif;
 }
