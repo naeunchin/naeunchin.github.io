@@ -35,12 +35,12 @@ header, footer {
     color: white;
 }
 
-header a.nav-link, 
+header a, 
 footer a {
     color: white !important;
 }
 
-header a.nav-link:hover, 
+header a:hover, 
 footer a:hover {
     color: rgba(255, 255, 255, 0.75) !important;
 }
