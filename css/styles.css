@@ -13,8 +13,11 @@
 }
 
 :root {
-    --imperial-blue: #0A2463;
-    --pale-slate: #BCC4DB;
+    --charcoal: #1E1B18;
+    --pine: #357266;
+    --mint: #B8D5B8;
+    --cream: #EFF7F6;
+    --parchment: #FFEED6;
 }
 
 .card {
@@ -28,7 +31,7 @@
 
 header, footer {
     backdrop-filter: blur(8px);
-    background-color: #1E1B18;
+    background-color: var(--charcoal);
     color: white;
 }
 
@@ -52,10 +55,23 @@ body {
 
 #home {
     font-family: "Lora", sans-serif;
+    background-color: var(--mint);
 }
 
 #projects .card-img-top {
     height: 250px;
     object-fit: cover;
     object-position: center;
+}
+
+.skills-card {
+  background-color: var(--cream);
+}
+
+#projects .card-title {
+  color: var(--pine);
+}
+
+#projects .card-body {
+  background-color: #F6F4F3;
 }
