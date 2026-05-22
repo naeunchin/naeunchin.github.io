@@ -12,11 +12,50 @@
   font-style: normal;
 }
 
-body {
-    font-family: "Inter", serif;
+:root {
+    --imperial-blue: #0A2463;
+    --pale-slate: #BCC4DB;
 }
 
-h1 {
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(17, 94, 89, 0.1);
+}
+
+header, footer {
+    backdrop-filter: blur(8px);
+    background-color: #1E1B18;
+    color: white;
+}
+
+header a.nav-link, 
+footer a {
+    color: white !important;
+}
+
+header a.nav-link:hover, 
+footer a:hover {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+header ul {
+  color: white;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#home {
     font-family: "Lora", sans-serif;
-    font-weight: bold;
+}
+
+#projects .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
 }

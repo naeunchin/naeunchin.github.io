@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Na Eun Chin | naeunchin">
-    <meta name="description" content="A personal portfolio website.">
+    <meta name="description"
+        content="A personal portfolio website showcasing software development skills and projects.">
 
     <title>Na Eun Portfolio</title>
 
@@ -26,37 +27,214 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="blog-header py-3 sticky-top border-bottom">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <a href="#home" class="d-flex align-items-center mb-3 text-decoration-none">
+                <span class="fs-2">Na Eun Chin</span>
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="https://github.com/naeunchin" target="_blank" class="nav-link"><i
+                            class="bi bi-github"></i></a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
-        <section id="home">
-            <h1>Hello, I am Na Eun / Lucy!</h1>
-            <div class="hero-description">
-                <p>Enthusiastic Full-Stack Software Developer.</p>
-                <p>Curious Problem-Solver.</p>
-                <p>Avid Science Lover.</p>
+        <section id="home" class="py-5 text-center container-fluid">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light display-4 text-dark">Hello, I am <span class="fw-bold">Na Eun /
+                            Lucy</span>!</h1>
+                    <div class="hero-description leading mt-3">
+                        <p class="fs-3 mb-1">Enthusiastic Full-Stack Software Developer</p>
+                        <p class="fs-3 mb-1">Curious Problem-Solver</p>
+                        <p class="fs-3 mb-3">Avid Science Lover</p>
+                    </div>
+                    <p>
+                        <a href="#projects" class="btn btn-dark my-2 px-4 py-2 me-2">My Projects</a>
+                        <a href="https://github.com/naeunchin" target="_blank"
+                            class="btn btn-secondary my-2 px-4 py-2">GitHub
+                            Profile</a>
+                    </p>
+                </div>
             </div>
         </section>
 
-        <section id="about-me">
-            <h2>About Me</h2>
-        </section>
+        <section id="about-me" class="py-5 container">
+            <h2 class="pb-2 mb-4 text-dark fw-bold text-center">About Me</h2>
 
-        <section id="skills">
-            <h2>Skills</h2>
-        </section>
+            <div class="row align-items-center justify-content-space-between">
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
+                <div class="col-md-4 text-center">
+                    <img src="./assets/img/profile-img.png" class="img-fluid rounded-circle"
+                        alt="An AI(Gemini)-generated cartoon image of a woman sitting in front of a laptop.">
+                </div>
+
+                <div class="col-md-8">
+                    <p class="fs-5">
+                        Hello! I am a junior software developer with an innate curiosity for how things work.
+                    </p>
+                    <p class="fs-5">
+                        With a decade of experience in working with scientific data, I specialize in creating efficient
+                        and
+                        scalable solutions to complex problems. When I'm not coding, you can find me exploring new
+                        scientific discoveries in medicine or working on my art as a creative outlet.
+                    </p>
+                </div>
 
             </div>
         </section>
 
-        <footer>
+        <section id="skills" class="py-5 container">
+            <div class="container">
+                <h2 class="pb-2 mb-4 fw-bold text-center">Technical Skills</h2>
+                <div class="row g-4 text-center justify-content-center">
+                    <div class="col-md-4">
+                        <div class="p-3 rounded shadow-sm h-100">
+                            <i class="bi bi-cpu fs-2"></i>
+                            <h4 class="mt-2 fw-bold">Languages</h4>
+                            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                                <span>C#</span>
+                                <span>C++</span>
+                                <span>Java</span>
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>SQL</span>
+                                <span>Dart</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 rounded shadow-sm h-100">
+                            <i class="bi bi-window-sidebar fs-2"></i>
+                            <h4 class="mt-2 fw-bold">Frameworks</h4>
+                            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                                <span>.NET</span>
+                                <span>JPA</span>
+                                <span>Spring Boot</span>
+                                <span>Hibernate</span>
+                                <span>JUnit</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>Bootstrap</span>
+                                <span>Maven</span>
+                                <span>Flutter</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-3 rounded shadow-sm h-100">
+                            <i class="bi bi-database fs-2"></i>
+                            <h4 class="mt-2 fw-bold">Tools & Databases</h4>
+                            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                                <span>SSMS</span>
+                                <span>PostgreSQL</span>
+                                <span>MariaDB</span>
+                                <span>Git & GitHub</span>
+                                <span>Docker</span>
+                                <span>REST APIs</span>
+                                <span>Firebase</span>
+                                <span>Keycloak</span>
+                                <span>Clerk</span>
+                                <span>Agile</span>
+                                <span>Jira</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="projects" class="py-5 container">
+            <h2 class="pb-2 mb-4 text-dark fw-bold text-center">Projects</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="./assets/img/sales.png" class="card-img-top"
+                            alt="An AI(Gemini)-generated graphic image of a shopping cart.">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Northwind Sales Portal</h5>
+                            <p class="card-text flex-grow-1">
+                                An enterprise web application designed for processing operational company data, managing
+                                real-time product inventory, and tracking customer orders.
+                            </p>
+                            <div class="mb-3">
+                                <span class="fw-bold text-dark d-block mb-1 fs-5">Tech Stack:</span>
+                                <span class="badge border text-dark">C#</span>
+                                <span class="badge border text-dark">.NET</span>
+                                <span class="badge border text-dark">Blazor</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <a href="https://github.com/naeunchin/northwind-app" target="_blank"
+                                    class="btn btn-sm btn-outline-primary w-100"><i class="bi bi-github me-1"></i> View
+                                    Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="./assets/img/bills.png" class="card-img-top"
+                            alt="An AI(Gemini)-generated graphic image of money.">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Bill Tracker</h5>
+                            <p class="card-text flex-grow-1">
+                                A web application for tracking and managing bills and payments.
+                            </p>
+                            <div class="mb-3">
+                                <span class="fw-bold text-dark d-block mb-1 fs-5">Tech Stack:</span>
+                                <span class="badge border text-dark">Java</span>
+                                <span class="badge border text-dark">Spring Boot</span>
+                                <span class="badge border text-dark">React</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <a href="https://github.com/naeunchin/bill-tracker" target="_blank"
+                                    class="btn btn-sm btn-outline-primary w-100"><i class="bi bi-github me-1"></i> View
+                                    Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="./assets/img/veggies.png" class="card-img-top"
+                            alt="An AI(Gemini)-generated cartoon image of vegetables.">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">BiomEat Mobile App</h5>
+                            <p class="card-text flex-grow-1">
+                                A health and nutrition tracking mobile app designed to feed your gut microbiome.
+                            </p>
+                            <div class="mb-3">
+                                <span class="fw-bold text-dark d-block mb-1 fs-5">Tech Stack:</span>
+                                <span class="badge border text-dark">Dart</span>
+                                <span class="badge border text-dark">Flutter
+                                    Boot</span>
+                                <span class="badge border text-dark">Firebase</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-auto">
+                                <a href="https://github.com/naeunchin/naeunchin-biomeat-mobile-app" target="_blank"
+                                    class="btn btn-sm btn-outline-primary w-100"><i class="bi bi-github me-1"></i> View
+                                    Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="py-5">
+            <div class="container text-center">
+                <p class="mb-1">&copy; 2026 Na Eun Chin. Built with Bootstrap 5.</p>
+                <p class="mb-0">
+                    <a href="#home" class="text-decoration-none"><i class="bi bi-arrow-up"></i>Back to top</a>
+                </p>
+            </div>
         </footer>
 </body>
 
