@@ -15,9 +15,18 @@
 :root {
     --charcoal: #1E1B18;
     --pine: #357266;
-    --mint: #B8D5B8;
+    --hero: #B8D5B8;
     --cream: #EFF7F6;
     --parchment: #FFEED6;
+    --card-bg: #F6F4F3;
+}
+
+[data-bs-theme="dark"] {
+  --charcoal: #0a0908;
+  --pine: #66c4b4;
+  --hero: #41658A;
+  --cream: #171b1a;
+  --card-bg: #1c2120;
 }
 
 .card {
@@ -53,9 +62,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-#home {
+#hero {
     font-family: "Lora", sans-serif;
-    background-color: var(--mint);
+    background-color: var(--hero);
 }
 
 #projects .card-img-top {
@@ -73,5 +82,5 @@ body {
 }
 
 #projects .card-body {
-  background-color: #F6F4F3;
+  background-color: var(--card-bg);
 }
