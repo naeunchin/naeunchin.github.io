@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This static website was built to showc
 * **GitHub Pages:** CI/CD deployment and hosting.
 
 ## Contact Me 
-* **LinkedIn:** https://www.linkedin.com/in/lucy-chin-49434b143/
+* **LinkedIn:** linkedin.com/in/naeunlucychin
 * **GitHub:** @naeunchin
 * **Email:** naeunchin@gmail.com
 
